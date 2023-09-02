@@ -33,5 +33,5 @@ jobs:
           
     - name: Deploy to AWS
       run: |
-        aws ecs update-service --cluster my-cluster --service my-service1 --force-new-deployment
+        aws ecs update-service --cluster my-cluster --service backend-service --force-new-deployment
 
