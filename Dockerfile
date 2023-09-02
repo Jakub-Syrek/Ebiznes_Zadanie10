@@ -2,7 +2,7 @@
 FROM node:14
 
 # Set the working directory
-WORKDIR /
+WORKDIR /Backend/
 
 # Copy the package.json and package-lock.json files
 COPY package*.json ./
